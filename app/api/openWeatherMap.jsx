@@ -1,7 +1,8 @@
 //axios.get takes a URL and fetch it bringing the result and it use promises
 var axios = require('axios');
 //Generate the base URL that we can use as a template
-const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=aec813657795b9b897199d7488f38a0e&units=imperial';
+const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=c4e735ea8bd7e7b6dc8368c752517b2d&units=imperial';
+//'http://api.openweathermap.org/data/2.5/weather?appid=aec813657795b9b897199d7488f38a0e&units=imperial';
 
 module.exports = {
     getTemp: function(location) { // getTemp will return a promise
