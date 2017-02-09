@@ -41,7 +41,19 @@ var Nav = React.createClass({
             </ul>
           </form>
         </div>
+
+        <div  id ="bottonRight">
+
+        <li className="float right">Mireya Marte Pepen </li>
+        <ol> Copyright 2016</ol>
+
       </div>
+
+      </div>
+
+
+
+
     );
   }
 });
